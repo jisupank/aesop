@@ -1,0 +1,125 @@
+* {
+    margin:0px; 
+    padding:0px;
+    font-family: 'Noto Sans TC', sans-serif; 
+}
+.clear{
+    clear: both; /* 지우다: 양쪽 */
+    height: 0px; /* 높이: 0px */
+    overflow: hidden; /* 넘쳤을때: 숨김 */
+}
+li {list-style: none;}
+#main_visual h2{
+    float: left;
+    margin: 50px 40px 15px 100px;
+}
+h2 img{
+    text-align: center;
+    width: 150px;
+}
+#title{
+    padding-top: 70px;
+    font-size: 25px;
+}
+#title_bottom{
+    margin-left: 290px;
+    padding-right: 950px;
+    padding-bottom: 60px;
+    font-size: 18px;
+}
+#main_visual{
+    background-image: url("../img/aesop_wash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: black;
+    min-width: fit-content;
+    color: black;
+    
+    padding: 200px 0px;
+}
+section{
+    text-align: center;
+    background-color: #ede0d6;
+}
+section h2{
+    padding: 80px 0px;
+    font-weight: 600;
+    color: #362921;
+}
+section dd{
+    margin: 0px;
+}
+.visual{
+    position: relative; /* 관계형 */
+    /* 자식이 absolute일 경우 relative인 부모가
+    위치 설정의 기준이 됨 */
+}
+.visual img{
+    width: 100%;
+}
+.cream ul{
+    padding: 0px;
+    padding-left: 130px;
+}
+.cream li:nth-child(4){
+    border: none;
+}
+.card{
+    width: calc(100%/4);
+    float: left;
+    list-style: none;
+}
+.info{
+    padding: 20px;
+}
+.info dl{
+    margin: 0px;
+}
+.info dd{
+    margin: 0px;
+    font-size: 9px; \
+}
+.info dt{
+    font-weight: bold;
+}
+.category{
+    background-color: #b09c93;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    position: static; /* 위치: 정적인(기본) */
+    position: absolute; /* 절대적인 */
+    left: 0px;
+}
+.long_line{
+    border-bottom: solid 1px;
+    width: 270px;
+    margin: 10px 50px; /* 상하 좌우 */
+}
+.bold_line{
+    border-bottom: solid 2px;
+    width: 270px;
+    margin: 10px 50px;
+    text-align: center;
+}
+
+#text_top{
+    padding: 10px 480px;
+    font-size: 25px;
+}
+#footer_left{
+    float: left;
+    font-size: 12px;
+    text-align: left;
+}
+#footer_right{
+    text-align: right;
+    font-weight: bold;
+    font-size: 12px;
+}
+#footer_text{
+    background-color: #252525;
+    color: #cccccc;
+    padding: 20px;
+}

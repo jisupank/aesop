@@ -1,0 +1,135 @@
+* {margin:0px; padding:0px;font-family: 'Noto Sans TC', sans-serif; }
+.clear{
+    clear: both; /* 지우다: 양쪽 */
+    height: 0px; /* 높이: 0px */
+    overflow: hidden; /* 넘쳤을때: 숨김 */
+}
+li {list-style: none;}
+header {
+   background-color: #f7f6e8;
+}
+a{text-decoration: none;}
+a:link {color:white;}
+a:visited {color:white;}
+a:hover {font-size: 20px;}
+#main_visual #list>li{
+    text-align: left;
+    padding-left: 50px; 
+    padding-top: 20px;
+    color: white;
+}
+#list{
+    position: absolute;
+}
+.main_content{
+    background-color: #f7f6e8;
+}
+#main_visual{
+    background-image: url('../img/aesop_main2.jpg');
+    background-size: auto 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* repeat, no-repeat, repeat-x, repeat-y */
+    background-color: black;
+    background-position: 50% 50%; /* 가로 세로 */
+
+    color: white; /* */
+    text-align: center;
+    position: relative;
+    padding: 320px 0px; /* 상하 좌우 */
+}
+#main_visual h2 img{
+    margin: 8px 0px;
+    width: 150px;
+}
+#title_top{
+    font-size: 20px;
+}
+#title_bottom{
+    font-size: 15px;
+}
+
+section{
+    text-align: center;
+}
+
+section #list{
+    padding: 0px 50px;
+    float: right;
+}
+
+section h2{
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-weight: 600;
+    color: #362921;
+}
+#about_list {
+    padding-left: 0px;
+    padding-top: 50px;
+    padding-bottom: 100px
+}
+#about_list #skin{
+    float: right;
+    margin-right: 240px;
+}
+#about_list #fragrance{
+    float: left;
+}
+#about_list #body{
+    float: right;
+    margin-right: 250px;
+}
+#about_list #home{
+    float: left;
+}
+#about_list #bg{
+    height: 600px;
+    position: absolute;
+}
+#about_list #img{
+    height: 300px;
+    padding-top: 200px;
+    position: relative;
+}
+#about_list dt{
+    font-size: 20px;
+    font-weight: bold;
+}
+#footer{
+    background-color: #f7f6e8;
+    text-align: center;
+}
+#footer_left{
+    float: left;
+    font-size: 12px;
+    text-align: left;
+}
+#footer_right{
+    text-align: right;
+    font-weight: bold;
+    font-size: 12px;
+}
+#last_img{
+    width: 70%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    float: left;
+}
+#text{
+    text-align: center;
+    padding-top: 100px;
+}
+#text_top{
+    font-size: 23px;
+    line-height: 35px;
+}
+#text_bottom{
+    padding-top: 30px;
+    font-weight: light;
+}
+#footer_text{
+    background-color: #252525;
+    color: #cccccc;
+    padding: 20px;
+}

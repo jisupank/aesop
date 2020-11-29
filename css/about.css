@@ -1,0 +1,125 @@
+* {
+    margin:0px; 
+    padding:0px;
+    font-family: 'Noto Sans TC', sans-serif; 
+}
+.clear{
+    clear: both; /* 지우다: 양쪽 */
+    height: 0px; /* 높이: 0px */
+    overflow: hidden; /* 넘쳤을때: 숨김 */
+}
+li {list-style: none;}
+header{
+    padding: 30px;
+    background-color: #f7f6e8;
+}
+header h2{
+    float: left;
+    margin: 15px 0px;
+}
+h2 img{
+    text-align: center;
+    width: 150px;
+}
+#titleBrand{
+    text-align: right;
+    margin: 32px 0px;
+    font-size: 30px;
+    padding-right: 50px;
+    color: #555552;
+    font-weight: 800;
+}
+#main_visual{
+    background-image: url("../img/aesop_chair.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: black;
+    min-width: fit-content;
+    color: white; /* */
+    
+    padding-top: 400px;
+}
+#box{
+    border: solid 1px;
+    font-size: 18px;
+    text-align: center;
+    padding: 18px 30px;
+    margin: 0px 70px 30px 1350px;
+}
+#box:hover{background-color: white;color: #b8a68e;transition-duration: 0.5s;}
+#brand_story{
+    padding-left: 1000px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 25px;
+}
+#productTit{
+    background-color: #f7f6e8;
+    padding: 80px 0px;
+}
+#title{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 50px;
+}
+#content_part1{
+    background-image: url(../img/aesop_mountain_snow.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    min-width: fit-content;
+    color: white; /* */
+    padding: 280px 70px 240px 1050px;
+}
+#content_title{
+    font-size: 25px;
+}
+#content{
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 340;
+    line-height: 22px;
+    padding-top: 70px;
+}
+#content_part2{
+    background-image: url(../img/aesop_rose_black.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    min-width: fit-content;
+    color: #252525; /* */
+    padding: 400px 1070px 120px 50px;
+}
+#footer #text{
+    background-image: url(../img/aesop_black.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    min-width: fit-content;
+    color: white; /* */
+    padding: 280px 0px;
+    text-align: center;
+}
+#text_top{
+    padding: 10px 480px;
+    font-size: 25px;
+}
+#footer_left{
+    float: left;
+    font-size: 12px;
+    text-align: left;
+}
+#footer_right{
+    text-align: right;
+    font-weight: bold;
+    font-size: 12px;
+}
+#footer_text{
+    background-color: #252525;
+    color: #cccccc;
+    padding: 20px;
+}
